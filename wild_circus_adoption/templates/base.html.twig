@@ -2,11 +2,41 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('appcss') }}
+        {% endblock %}
     </head>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div>
+                <a class="logo" href="{{ path('index') }}"><img class="logo" src="{{ asset('pictures/logowild.png') }}" alt="logo"></a>
+                <a class="navbar-brand" href="#"><strong>Wild Circus   </strong>Adoption</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">ADOPTION<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROCHAINS LIEUX</a>
+                    </li>
+                    <li><a class="nav-link" target="_blank" href="#">
+                            <img class="pictosNav" src="{{ asset('pictures/fb.png') }}" alt="facebook"></a></li>
+                    <li><a class="nav-link" href="#">
+                            <img class="pictosNav" src="{{ asset('pictures/send.png') }}" alt="contactez-nous"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
     </body>
 </html>
