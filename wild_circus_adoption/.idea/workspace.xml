@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6450cd73-2b7b-4b7f-bd63-1aeeb83cf3f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/pictures/GIRAFE/harshil-gudka-zn50rwVVdcM-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/GIRAFE/juan-carlos-gomez-rt2_-5PI2UU-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/GIRAFE/priscilla-du-preez-vzbYBamdFt0-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/GIRAFE/sian-cooper-NEJcmvLFcws-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/PINGUIN/cara-fuller-glr74KCPmEQ-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/PINGUIN/isabella-juskova-xhq5uyyI2wE-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/PINGUIN/jean-wimmerlin-8ylllL2hMZg-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/arrow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/mae-mu-TnwP3VdUCUA-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/pascal-muller-wFUyCqW9tS4-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/pictures/victor-freitas-nZUpk5E8p5A-unsplash.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,17 +24,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+            <state relative-caret-position="613">
+              <caret line="106" selection-start-line="106" selection-end-line="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/homepage.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2590">
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/homepage.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="166" selection-start-line="5" selection-start-column="166" selection-end-line="5" selection-end-column="166" />
+            <state relative-caret-position="422">
+              <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -84,9 +83,9 @@
         <option value="$PROJECT_DIR$/assets/css/app.scss" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/templates/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/templates/base.html.twig" />
       </list>
     </option>
   </component>
@@ -201,9 +200,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="1022" />
-    <option name="width" value="1600" />
-    <option name="height" value="902" />
+    <option name="x" value="230" />
+    <option name="y" value="1051" />
+    <option name="width" value="960" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -302,21 +302,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563269710102</updated>
-      <workItem from="1563269713921" duration="23838000" />
+      <workItem from="1563269713921" duration="27548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23838000" />
+    <option name="totallyTimeSpent" value="27548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="1049" width="1533" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13113652" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13113652" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.1420765" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.30327868" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -363,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -385,15 +378,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+        <state relative-caret-position="613">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="166" selection-start-line="5" selection-start-column="166" selection-end-line="5" selection-end-column="166" />
+        <state relative-caret-position="-2590">
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
         </state>
       </provider>
     </entry>

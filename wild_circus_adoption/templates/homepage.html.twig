@@ -1,5 +1,4 @@
 {% extends 'base.html.twig' %}
-
 {% block title %}Wild Circus adoption{% endblock %}
  {% block stylesheets %}
      {{ parent() }}
@@ -68,7 +67,7 @@
                 </div>
             </div>
             <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
+                <h5 class="mb-0 who">
                     QUI SOMMES NOUS ? <br>
                     <button class="btn btn-link buttoncenter" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <img class="arrow" alt="arrow [900x300]" src="{{ asset('pictures/arrow.jpg') }}">
@@ -77,22 +76,68 @@
             </div>
 
         </section>
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th class="font-weight-bold text-center middle"><h5>NOS PROCHAINES DATES</h5></th>
-            </tr>
-            </thead>
+        <h5>NOS PROCHAINES DATES</h5>
+        <table class="table table-striped tableau">
             <tbody>
             <tr>
-                <th scope="row">LILLE</th>
+                <th scope="row" class="pad">LILLE</th>
                 <th class="middle">22 JUILLET 2019</th>
                 <th>LA CITADELLE</th>
             </tr>
             <tr>
-                <th scope="row">AMIENS</th>
-                <th class="middle">6 AOUT 2019</th>
-                <th>PARC ZOOLOGIQUE</th>
+                <th scope="row" class="pad">PARIS</th>
+                <th class="middle">17 AOUT 2019</th>
+                <th>ARENA</th>
+            </tr>
+            <tr>
+                <th scope="row" class="pad">FOUQUIÈRES-LEZ-LENS</th>
+                <th class="middle">31 AOUT 2019</th>
+                <th>PLACE DE LA MAIRIE</th>
+            </tr>
+            <tr>
+                <th scope="row">BRUXELLES</th>
+                <th class="middle">3 SEPTEMBRE 2019</th>
+                <th>FOREST</th>
+            </tr>
+            <tr>
+                <th scope="row">BUDAPEST</th>
+                <th class="middle">23 SEPTEMBRE 2019</th>
+                <th>ZUGUL BOUDGOU</th>
+            </tr>
+            <tr>
+                <th scope="row">ANKARA</th>
+                <th class="middle">14 OCTOBRE 2019</th>
+                <th>ANITKABIR</th>
+            </tr>
+            <tr>
+                <th scope="row">BANGKOK</th>
+                <th class="middle">1 NOVEMBRE 2019</th>
+                <th>KOH CHANG</th>
+            </tr>
+            <tr>
+                <th scope="row" class="pad">TOKYO</th>
+                <th class="middle">28 NOVEMBRE 2019</th>
+                <th>KAP YUN DA</th>
+            </tr>
+            <tr>
+                <th scope="row">REYKJAVIK</th>
+                <th class="middle">28 MARS 2020</th>
+                <th>CERCLE D'OR</th>
+            </tr>
+            <tr>
+                <th scope="row">VENISE</th>
+                <th class="middle">8 AVRIL 2020</th>
+                <th>PLACE SAINT-MARC</th>
+            </tr>
+            <tr>
+                <th scope="row">TOULOUSE</th>
+                <th class="middle">30 AVRIL 2020</th>
+                <th>GRANDE PLAINE</th>
+            </tr>
+            <tr>
+                <th scope="row">BOURDEAUX</th>
+                <th class="middle">9 MAI 2020</th>
+                <th>ZENITH</th>
             </tr>
             </tbody>
         </table>
