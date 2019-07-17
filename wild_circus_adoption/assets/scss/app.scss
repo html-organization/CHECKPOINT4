@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .pictosNav {
   width: 30px;
 }
@@ -40,11 +47,58 @@ h2, p {
 }
 
 h2 {
-  font-weight: bolder;
+    padding-bottom: 1px;
+    border-bottom: 1px solid red;
+    width: max-content;
+    font-weight: bold;
 }
 
 p {
+  font-weight: bold;
   margin-left: 1rem;
-  line-height: 0.5rem;
+  padding-top: 10px;
+  line-height: 0.3rem;
 
+}
+
+h5 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.presentation {
+  line-height: 1.5rem;
+}
+
+.paragraphe {
+  margin: 2px 150px 2px 150px;
+}
+
+.buttoncenter {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.arrow {
+  display: block;
+  width:45px;
+}
+
+.collapsed .arrow {
+  transform: rotate(180deg);
+}
+
+th {
+  font-family: 'Fredericka the Great', cursive;
+   padding-left: 20px;
+}
+
+.middle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+thead, tbody {
+  padding-left: 20px;
 }

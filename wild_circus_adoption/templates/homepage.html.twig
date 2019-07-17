@@ -12,6 +12,7 @@
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
@@ -24,10 +25,20 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" alt="Second slide [900x300]" src="{{ asset('pictures/ELEPHANT/lauren-kay-MoAbTalDlD8-unsplash.jpg') }}" data-holder-rendered="true">
+                        <img class="d-block w-100 carouselpic" alt="Adoption [900x300]" src="{{ asset('pictures/pascal-muller-wFUyCqW9tS4-unsplash.jpg') }}" data-holder-rendered="true">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>ADOPTION</h2>
+                            <p>Giraffes, clowns, lions et éléphants ont besoin d'un nouveau foyer !</p>
                             <p>Découvrez immédiatement les animeaux qui ont besoin d'un acceuil rapide.</p>
+                            <p>En savoir plus</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carouselpic">
+                        <img class="d-block w-100" alt="Visite [900x300]" src="{{ asset('pictures/ELEPHANT/lauren-kay-MoAbTalDlD8-unsplash.jpg') }}" data-holder-rendered="true">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>PROCHAINE VISITE</h2>
+                            <p>Attention ! Ils s'invitent dans vos jardins !</p>
+                            <p>Découvrez le prochains lieux de visite</p>
                             <p>En savoir plus</p>
                         </div>
                     </div>
@@ -42,8 +53,50 @@
                 </a>
             </div>
         </section>
-    </main>
+        <section id="accordion">
+            <div class="card">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body paragraphe">
+                        <strong>Wild Circus    </strong> Adoption est une plateforme sous jacente du cirque itinérant WILD CIRCUS.
+                        Notre compagnie se représente dans toutes les villes du monde et recupère les animeaux mal en points. Le but étant de leur trouvé un foyer d'accueil à long terme,
+                        pour les nouveaux-nés comme pour ceux en fin de carrière. Il était difficile pour nous de concevoir un animal en souffrance et on ne voulait pas que cette image
+                        de maltraitant nous colle plus longtemps à la peau. Nous avons fait ce qu'il fallait.
+                        <p class="font-italic presentation">"Au début, ça a commencé avec un éléphanteau abdandonné par un cirque itinérant comme le notre.
+                            Ils lui avaient surêment arraché la mère pour utilisée celle-ci dans leur spéctacle. Le petit était mort de faim,
+                            à bout de force il ne se débattait même plus. Nous l'avons reccueilli et nourrit grâce à l'argent de nos représentations."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    QUI SOMMES NOUS ? <br>
+                    <button class="btn btn-link buttoncenter" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <img class="arrow" alt="arrow [900x300]" src="{{ asset('pictures/arrow.jpg') }}">
+                    </button>
+                </h5>
+            </div>
 
+        </section>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th class="font-weight-bold text-center middle"><h5>NOS PROCHAINES DATES</h5></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">LILLE</th>
+                <th class="middle">22 JUILLET 2019</th>
+                <th>LA CITADELLE</th>
+            </tr>
+            <tr>
+                <th scope="row">AMIENS</th>
+                <th class="middle">6 AOUT 2019</th>
+                <th>PARC ZOOLOGIQUE</th>
+            </tr>
+            </tbody>
+        </table>
+    </main>
 {% endblock %}
 {% block javascripts %}
      {{ parent() }}
