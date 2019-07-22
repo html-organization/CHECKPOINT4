@@ -20,10 +20,10 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">ADOPTION<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ path('adoption') }}">ADOPTION<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PROCHAINS LIEUX</a>
+                    <li class="nav-item lieux">
+                        <a class="nav-link lieux" href="#prochainslieux">PROCHAINS LIEUX</a>
                     </li>
                     <li><a class="nav-link" target="_blank" href="#">
                             <img class="pictosNav" src="{{ asset('pictures/fb.png') }}" alt="facebook"></a></li>
@@ -38,7 +38,7 @@
 
 
         <!-- Footer -->
-        <footer class="page-footer font-small special-color-black pt-4">
+        <footer class="page-footer font-small pt-4 colorfooter">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mb-4">
@@ -60,8 +60,8 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            <div class="footer-copyright text-center py-3">Made with love by :
+                <a href="https://wildcodeschool.fr/">Wild Code School</a>
             </div>
         </footer>
         <!-- Footer -->

@@ -5,6 +5,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/////////// NAVBAR //////////
+
+html {
+  scroll-behavior: smooth;
+}
+
 .pictosNav {
   width: 30px;
 }
@@ -12,6 +18,10 @@
 .logo {
   width:85px;
   padding: 5px 10px 7px 5px;
+}
+
+.lieux {
+  text-decoration-color: #C2EB4E;
 }
 
 nav {
@@ -23,6 +33,8 @@ nav {
 #navbarTogglerDemo02 {
   flex-grow: initial;
 }
+
+/////////// HOMEPAGE //////////
 
 .carouselpic {
   width: 100%;
@@ -37,8 +49,7 @@ nav {
 
 .carousel-caption {
   position: absolute;
-  top: 7%;
-
+  top: 10%;
 }
 
 h2, p {
@@ -48,13 +59,14 @@ h2, p {
 
 h2 {
     padding-bottom: 1px;
-    border-bottom: 1px solid red;
+    border-bottom: 3px solid #C2EB4E;
     width: max-content;
     font-weight: bold;
 }
 
 p {
   font-weight: bold;
+  font-size: larger;
   margin-left: 1rem;
   padding-top: 10px;
   line-height: 0.3rem;
@@ -62,8 +74,15 @@ p {
 }
 
 h5 {
-  padding-top: 30px;
+  padding-top: 50px;
   text-align: center;
+}
+
+.date {
+  padding-bottom: 1.5px;
+  border-bottom: 3px solid #C2EB4E;
+  width: max-content;
+  margin-left: 577px
 }
 
 .presentation {
@@ -101,8 +120,13 @@ th {
   text-align: center;
 }
 
-thead, tbody {
-  padding-left: 20px;
+.colorfooter {
+  background-color: #C2EB4E;
 }
 
+/////////// ADOPTION //////////
+
+.cardadoption {
+  line-height: 3rem;
+}
 

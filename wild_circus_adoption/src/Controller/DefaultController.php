@@ -18,4 +18,12 @@ class DefaultController extends AbstractController
     {
         return $this->render('homepage.html.twig');
     }
+
+    /**
+     * @Route ("/adoption", name="adoption")
+     */
+    public function show(): Response
+    {
+        return $this->render('adoption.html.twig');
+    }
 }
