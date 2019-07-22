@@ -4,6 +4,9 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+main {
+  padding: 0 50px 0 50px;
+}
 
 /////////// NAVBAR //////////
 
@@ -32,6 +35,11 @@ nav {
 
 #navbarTogglerDemo02 {
   flex-grow: initial;
+}
+
+///////////FILTER /////////////
+input.form-control.search {
+  width: inherit;
 }
 
 /////////// HOMEPAGE //////////

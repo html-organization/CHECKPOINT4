@@ -13,14 +13,5 @@ const $ = require('jquery');
 
 console.log('Hello Webpack Encore! Edit me in assets/js/app.js');
 
-//Nav opacity on scroll
 
-$(window).scroll(function () {
-    let windScroll = $(window).scrollTop();
-    if (windScroll >= 50) {
-        $('header').addClass('fixed');
-    } else {
-        $('header').removeClass('fixed');
-    }
-});
 

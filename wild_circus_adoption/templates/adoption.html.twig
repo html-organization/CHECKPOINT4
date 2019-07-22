@@ -6,6 +6,35 @@
      {% endblock %}
     {% block body %}
         <main>
+
+            <!--///////////////////////////// FILTER BAR ////////////////////////////////-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2">
+                        <div class="input-group">
+                            <div class="input-group-btn search-panel">
+                                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                    <span id="search_concept">Filtre par</span> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="#felins">Félins</li>
+                                    <li class="#gros">Les gros</li>
+                                    <li class="#petits">Les petits</li>
+                                    <li class="divider"></li>
+                                    <li class="#all">Tous</li>
+                                </ul>
+                            </div>
+                            <input type="hidden" name="search_param" value="all" id="search_param">
+                            <input type="text" class="form-control search" name="x" placeholder="Recherchez votre prochains compagnons...">
+                            <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--///////////////////////////// CARDS DECRIPTION ////////////////////////////////-->
             <div class="card-columns">
                 <div class="card p-3">
                     <img class="card-img-top" src="/pictures/LEOPARD/jean-wimmerlin-YxDENE4HgMM-unsplash.jpg" alt="Card image cap">
